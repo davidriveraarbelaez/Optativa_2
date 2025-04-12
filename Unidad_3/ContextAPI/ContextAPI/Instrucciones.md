@@ -14,6 +14,13 @@ npx create-expo-app@latest --template
 cd MyApp
 ```
 
+Instalar las dependencias necesarias para la navegación y el contexto.
+
+```bash
+npx expo install react-dom react-native-web @expo/metro-runtime
+@react-navigation/native @react-navigation/native-stack react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+```
+
 5. Crear el contexto y el proveedor.
 
 ```bash
@@ -158,4 +165,4 @@ export default function App() {
 
 ```bash
 npm run web
-```
+``` 
