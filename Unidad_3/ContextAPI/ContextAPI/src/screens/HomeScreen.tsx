@@ -35,3 +35,5 @@ const styles = StyleSheet.create({ // Estilos para el componente
         marginBottom: 20,
     },
 });
+
+export default HomeScreen; // Exportar el componente HomeScreen
